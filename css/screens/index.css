@@ -10,10 +10,10 @@
   font-size: 20px;
   margin-top: 100px;
 }
-
-.fa-door-open {
-  margin-top: 100px;
-  font-size: 40px;
+.welcome-header img {
+  width: 100px;
+  height: 110px;
+  margin-top: 80px;
 }
 
 .login-form {
