@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "variable.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/navigation-bar.css";
+
+/* screens */
+@import "screens/index.css";
+@import "screens/friends.css";
+
+* {
+  color: rgb(32, 32, 32);
+}
