@@ -20,7 +20,7 @@
 
 .alt-header__column:last-child {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .alt-header__column:last-child i {
