@@ -9,6 +9,7 @@
 /* screens */
 @import "screens/index.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 * {
   color: rgb(32, 32, 32);
