@@ -12,19 +12,12 @@
 }
 
 .fa-door-open {
-  margin-top: 50px;
-  font-size: 30px;
-}
-
-.welcome-header__text {
-  margin-top: 50px;
-  text-align: center;
-  width: 250px;
-  color: gray;
+  margin-top: 100px;
+  font-size: 40px;
 }
 
 .login-form {
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
