@@ -1,0 +1,88 @@
+.play-page__album,
+.music-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.play-page__album__cover {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(0, 30, 128, 0.5);
+}
+.play-page__album__title {
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.play-page__album__singer {
+  font-size: 14px;
+  color: gray;
+  margin-top: 15px;
+}
+
+.play-page__play-bar {
+  width: 400px;
+}
+
+.play-page__play-bar__time {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.play-page__play-bar__time-bar--whole {
+  margin-top: 10px;
+  height: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.play-page__play-bar__time-bar--play {
+  height: 4px;
+  width: 70%;
+  border-radius: 40px;
+  background-color: var(--black);
+}
+
+.play-page__play-bar i {
+  position: relative;
+  font-size: 10px;
+  top: -10px;
+  left: 67.5%;
+}
+
+.play-page__buttons {
+  margin-top: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.play-page__buttons button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 15px;
+}
+.play-page__buttons button:nth-child(3) i {
+  width: 50px;
+  height: 50px;
+  background-color: var(--black);
+  border-radius: 50%;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-page__buttons button:first-child i,
+.play-page__buttons button:last-child i {
+  color: var(--gray);
+}

@@ -14,3 +14,32 @@
 .screen-header__icons i {
   margin-left: 10px;
 }
+
+@keyframes rotateCog {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s ease-in-out infinite;
+}
+
+@keyframes rotateNote {
+  0% {
+    transform: none;
+  }
+  25%,
+  75% {
+    transform: rotateZ(13deg);
+  }
+  50%,
+  100% {
+    transform: rotateZ(-13deg);
+  }
+}
+.screen-header__icons .fa-music:hover {
+  animation: rotateNote 1s ease-in-out infinite;
+}

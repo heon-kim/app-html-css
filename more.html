@@ -26,7 +26,9 @@
       <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span> <i class="fas fa-search"></i></span>
-        <span> <i class="fas fa-music"></i></span>
+        <span>
+          <a href="music.html"> <i class="fas fa-music"></i></a
+        ></span>
         <span>
           <a href="settings.html"> <i class="fas fa-cog"></i></a
         ></span>
@@ -34,10 +36,12 @@
     </header>
 
     <main class="main-screen more-screen">
-      <div class="user-component user-component--alter">
-        <div class="user-component__column user-component__column--alter">
-          <div class="user-component__avatar"></div>
-          <div class="user-component__text user-component__text--alter">
+      <div class="user-component user-component--vertical">
+        <div class="user-component__column user-component__column--vertical">
+          <div
+            class="user-component__avatar user-component__avatar--lightblue user-component__avatar--lg"
+          ></div>
+          <div class="user-component__text user-component__text--vertical">
             <h4 class="user-component__title">HeonKim</h4>
             <h6
               class="user-component__subtitle user-component__subtitle--light"
@@ -93,9 +97,9 @@
         </li>
       </ul>
     </nav>
-    <!-- <div id="no-mobile">
+    <div id="no-mobile">
       <span>Reduce the size of the window.</span>
-    </div> -->
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

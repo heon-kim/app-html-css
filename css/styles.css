@@ -7,6 +7,10 @@
 @import "components/screen-header.css";
 @import "components/navigation-bar.css";
 @import "components/alt-header.css";
+@import "components/icon-row.css";
+@import "components/badge.css";
+@import "components/no-mobile.css";
+@import "components/splash-screen.css";
 
 /* screens */
 @import "screens/index.css";
@@ -15,6 +19,8 @@
 @import "screens/chat.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/music.css";
 
 * {
   color: rgb(32, 32, 32);
@@ -22,4 +28,11 @@
 
 .main-screen {
   padding: 15px var(--horizontal-space);
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--gray);
+  margin: 0 5px;
 }
